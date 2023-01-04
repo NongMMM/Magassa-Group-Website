@@ -1,0 +1,364 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* navbar */
+.navbar-brand{
+  margin: 0 50px;
+}
+.collapse{
+  margin: 0 50px;
+  font-size: 1.5rem;
+}
+.nav-item{
+  margin: 0 20px;
+}
+.nav-link{
+  color: black;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.nav-link img{
+  width: 20px;
+  margin: 5px;
+}
+.nav-link:hover{
+  background-color: rgba(255, 0, 0, 0.808);
+  border-radius: 10%;
+  color: white;
+}
+
+
+/*carusel */
+.carousel img{
+  height: 720px;
+}
+.carousel-control-prev-icon{
+  background-color: grey;
+  border-radius: 10%;
+}
+.carousel-control-next-icon{
+  background-color: grey;
+  border-radius: 10%;
+}
+.carouselExampleIndicators{
+  height: 100px;
+}
+
+/* product */
+.product-section{
+  background-color: rgb(247, 247, 247);
+  padding: 60px 0;
+}
+.product-text{
+  text-align: center;
+}
+.product-card{
+  text-align: center;
+}
+.product-text h1{
+  margin-top: 5px;
+  font-size: 5rem;
+  font-weight: 800;
+  color: red;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+
+/* card */
+.card{
+  display: inline-block;
+  margin:  20px;
+  height: auto;
+  text-align: center;
+  transition: 0.5s;
+}
+.card p{
+  margin: 0 20px;
+  text-align: left;
+  font-size: 17px;
+}
+.card h3{
+  font-size: 1.5rem;
+  font-weight:600;
+}
+.card:hover{
+  transform: scale(1.15);
+}
+
+
+
+/* Testimonial */
+.section-text{
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 30px;
+}
+.section-text ul{
+  list-style: none;
+}
+.section-text ul li{
+  display: inline-block;
+  margin: 0 50px;
+  font-family: 'Dancing Script', cursive;
+}
+
+/* vdo */
+.vdo-section{
+  padding: 30px;
+  text-align: center;
+}
+.vdo-section{
+  background-color: rgb(247, 247, 247);
+}
+.vdo-text h1{
+  font-family: 'Dancing Script', cursive;
+  color: red;
+  font-size: 5rem;
+  font-weight: 800;
+}
+.vdo video{
+  margin: 20px;
+}
+
+
+
+/* contact */
+.contact-section{
+  padding: 40px;
+}
+.contact-text h1{
+  font-family: 'Dancing Script', cursive;
+  color: red;
+  font-size: 5rem;
+  font-weight: 800;
+  text-align: center;
+}
+.location{
+  display: flex;
+  margin-top: 50px ;
+  justify-content: center;
+}
+.location-text h3{
+  margin: 20px;
+}
+.location-text{
+  margin-right: 40px;
+}
+.location-text a{
+  text-decoration: none;
+  color: #000;
+  transition: 0.5s;
+}
+.location-map{
+  display: flex;
+  margin-left: 40px;
+}
+.fa-location-dot{
+  color: red;
+  font-size: 40px;
+  transition: 0.5s;
+}
+.fa-location-dot:hover{
+  transform: scale(1.2);
+}
+.fa-envelope{
+  color: rgb(96, 96, 229);
+  font-size: 30px;
+  transition: 0.5s;
+}
+.fa-envelope:hover{
+  transform: scale(1.2);
+}
+.fa-whatsapp{
+  color: rgb(27, 192, 27);
+  font-size: 40px;
+  transition: 0.5s;
+}
+.fa-whatsapp:hover{
+  transform: scale(1.2);
+}
+.fa-phone, .fa-globe{
+  font-size: 30px;
+}
+
+
+/* footer */
+hr {
+  border: 1px solid #000;
+}
+
+.copyright{
+  text-align: center;
+  margin: 20px;
+}
+
+
+/* //////////////// Mobile ///////////// */
+
+@media only screen and (max-width:480px) {
+    
+  /* navbar */
+  .navbar-brand{
+    margin: 0 20px;
+  }
+  .navbar-toggler{
+    margin: 0 30px;
+  }
+  .navbar-nav{
+    text-align: center;
+  }
+  .nav-link img{
+    width: 30px;
+    margin: 5px;
+  }
+
+  /* carousel */
+  .carousel img{
+    height: 320px;
+  }
+  /* testimonials */
+  .section-text{
+    padding: 5px;
+  }
+  .section-text ul{
+    padding: 0;
+  }
+  .section-text ul li{
+    padding: 10px 0;
+  }
+
+  /* vdo */
+  .vdo video{
+    width: 300px;
+  }
+
+  /* contact */
+  .contact-section{
+    padding: 20px 25px;
+  }
+  .contact-text h1{
+    font-size: 4rem;
+  }
+  .location-text h3{
+    font-size: 17px;
+  }
+
+  /* location */
+  .location-map{
+    display: none;
+  }
+  .location-text{
+    margin: 0;
+  }
+  .location-text h3{
+    margin: 20px 0;
+  }
+
+  /* footer */
+  .copyright{
+    margin: 5px;
+  }
+  .copyright p{
+    font-size: 10px;
+  }
+}
+
+/* //////////// Tablet /////////////*/
+@media only screen and (max-width:768px) and (min-width: 481px){
+
+  /* navbar */
+  .navbar-brand{
+    margin: 0 20px;
+  }
+  .navbar-toggler{
+    margin: 0 30px;
+  }
+  .navbar-nav{
+    text-align: center;
+  }
+  .nav-link img{
+    width: 30px;
+    margin: 5px;
+  }
+
+  /* carousel */
+  .carousel img{
+    height: 520px;
+  }
+  
+  /* testimonials */
+  .section-text{
+    padding: 5px;
+  }
+  .section-text ul{
+    padding: 0;
+  }
+  .section-text ul li{
+    padding: 10px 0;
+  }
+
+  /* vdo */
+  .vdo video{
+    width: 500px;
+  }
+
+ /* location */
+  .location-map{
+    display: none;
+  }
+  
+}
+
+/* //////////// Laptop /////////////*/
+@media only screen and (max-width:1024px) and (min-width: 768px){
+  
+   /* carousel */
+   .carousel img{
+    height: 520px;
+  }
+
+  /* testimonials */
+  .section-text{
+    padding: 5px;
+  }
+  .section-text ul{
+    padding: 0;
+  }
+  .section-text ul li{
+    padding: 10px 0;
+    margin: 30px 20px;
+  }
+
+  /* location */
+  .location-map{
+    display: none;
+  }
+}
+
+/* //////////// Desktop /////////////*/
+@media only screen and (max-width:1200px) and (min-width: 1024px){
+  
+   /* testimonials */
+   .section-text{
+    padding: 5px;
+  }
+  .section-text ul{
+    padding: 0;
+  }
+  .section-text ul li{
+    padding: 10px 0;
+    font-size: 24px;
+  }
+  
+}
+
+/* //////////// Extra-Large /////////////*/
+@media only screen and (min-width: 1200px){
+  
+
+  
+}
